@@ -1,0 +1,9 @@
+server:
+ port: 9400
+
+spring:
+  application:
+    name: GatewayMS
+  cloud:
+    consul:
+      host: localhost

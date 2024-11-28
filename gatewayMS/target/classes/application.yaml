@@ -1,0 +1,20 @@
+spring: 
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: WeCareBookingMS
+          uri: lb://WeCareBookingMS
+          predicates:
+            - Path=/users/*/booking/*,
+                   /booking/**    
+        - id: WeCareCoachMS
+          uri: lb://WeCareCoachMS
+          predicates:
+            - Path=/coaches/**,
+        - id: WeCareUserMS
+          uri: lb://WeCareUserMS
+          predicates:
+            - Path=/users/**                 
