@@ -1,5 +1,5 @@
 # WeCare-Microservices
-**WeCare-Microservices** is the **backend implementation** of the WeCARE platform using **Spring REST** and **Spring Microservices architecture**. The project is designed to handle user, coach, and booking functionalities in a microservices-based architecture, allowing scalability and flexibility.
+**WeCare-Microservices** is the **backend implementation** of the WeCARE platform using **Spring REST** and **Spring Microservices architecture**. The project is designed to handle user, coach, and booking functionalities in a **microservices-based architecture**, allowing scalability and flexibility.
 The system utilizes **Consul** for distributed configuration management and **Feign Client** for communication between microservices.
 
 ## Features
